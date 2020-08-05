@@ -4,6 +4,7 @@ exports[`Wallet renders properly 1`] = `
 <div>
   <h3>
     Wallet balance: 
+    20
   </h3>
 </div>
 `;
