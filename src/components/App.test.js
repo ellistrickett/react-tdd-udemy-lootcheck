@@ -9,7 +9,7 @@ describe('App', () => {
     expect(app).toMatchSnapshot();
   });
 
-  it('contains a wallet component', () =>{
-    expect(app.find('Wallet').exists()).toBe(true);
+  it('contains a connected wallet component', () => {
+    expect(app.find('Connect(Wallet)').exists()).toBe(true);
   });
 });
