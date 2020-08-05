@@ -25,10 +25,3 @@ it('creates an action to withdraw from the deposit', () => {
   expect(actions.withdraw(withdrawal)).toEqual(expectedAction);
 });
 
-it('withdraws from the balance', () => {
-  const withdrawal = 10;
-  const initial State = 20;
-
-  expect(balanceReducer(initialState, { type: constants.WITHDRAW,})).toEqual(initialState - withdrawal)
-})
-
