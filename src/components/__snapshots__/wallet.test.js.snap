@@ -2,7 +2,9 @@
 
 exports[`Wallet renders properly 1`] = `
 <div>
-  <h3>
+  <h3
+    className="balance"
+  >
     Wallet balance: 
     20
   </h3>
